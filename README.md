@@ -1,9 +1,9 @@
 ## About
-This Python Script:
+This Python script:
 
-- Continuously observes the clipboard to identify cryptocurrency wallet addresses.
-- Substitutes any found wallet addresses with a fabricated one.
-- Emulates the approach clipboard hijackers use to manipulate clipboard content.
+- Continuously monitors the clipboard.
+- Detects cryptocurrency wallet addresses in the clipboard.
+- Replaces any detected wallet address with a fake one, mimicking the method used by malicious clipboard hijackers.
 
 ## Setup
 
@@ -27,10 +27,10 @@ Before running the script, you need to install the required Python libraries. Us
 
 ## [?]How to Stay Safe
 
-- Consistently review what’s on your clipboard before inserting sensitive information.
-- Employ security utilities or clipboard monitoring tools that alert you to unanticipated modifications.
-- Maintain updated systems and rely on reputable antivirus solutions.
+- Regularly check your clipboard before pasting sensitive information.
+- Use security tools or clipboard monitoring software to detect unexpected changes.
+- Keep your systems updated and use trusted antivirus programs.
 
 ## [!]Educational Focus
 
-This proof of concept aims to educate cybersecurity enthusiasts and developers about clipboard hijacking techniques. It highlights the critical importance of input validation and promoting user vigilance.
+This example is meant to teach cybersecurity enthusiasts and developers about how clipboard hijacking works. It focuses on the importance of checking input and staying alert.
